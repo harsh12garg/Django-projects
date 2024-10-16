@@ -1,12 +1,11 @@
 <p id ="top" align="center">
-  <img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/django bookstore logo.png" width="90%">
+  <img src=/Pages-App-django/blob/master/templates/django bookstore logo.png" width="90%">
 </p>
 
 
 # Django-Ecommece-Bookstore
 <p>An online bookshop developed in django-3 which allow users to purchase books online :) </p>
 
-<img src="https://github.com/YashMarmat/Pages-App-django/blob/master/templates/dj-ecom-bstore-pic2.png?raw=true">
 
 ### Live App
 * checkout the site here: <a href="https://dj-bookstore.onrender.com/" target="_blank" >Deployed App</a> (little note below)
@@ -49,7 +48,7 @@ Also, before purchasing any book you will be redirected to the login or signup p
 
 I'm assuming that you are already done with setting up virtual enviornment in your system. Ok, now lets move to a location where we can store this project by using terminal or command prompt in windows. In my case im at this location,
 
-yash@yash-SVE15113ENB:~/Documents/django_project/$ 
+
 
 * Now Setup the virtual environment
 
@@ -285,7 +284,7 @@ Also, the BookDetailView uses this <int:pk> or id to show the details of a parti
 
 ### templates
 
-Its time for templates now, if you remember we used template_name in our class based views. The content on the webpage basically comes from templates (actually html files) and the views holds the overall functionality in short. First lets create a template folder, your templates folder should be outside your ecom_project folder, forex: take a look at my <a href = "https://github.com/YashMarmat/django-ecommece-bookstore">repository</a>. Mean place the folder just below the ecom_project folder (note: there are many ways to use templates in django but for now im using this approach).
+Its time for templates now, if you remember we used template_name in our class based views. The content on the webpage basically comes from templates (actually html files) and the views holds the overall functionality in short. First lets create a template folder, your templates folder should be outside your ecom_project folder, forex: take a look at my <a href = "#">repository</a>. Mean place the folder just below the ecom_project folder (note: there are many ways to use templates in django but for now im using this approach).
 
 * or just follow below command
 
@@ -309,9 +308,6 @@ now open your settings.py file from ecom_project folder and update the Template 
 	    },
 	]
 
-Inside templates folder create 5 .html files namely --> base.html, checkout.html, detail.html, list.html, search_results.html (again order doesn't matter). Update the files by putting the codes mention in below links
-
-<a href ="https://github.com/YashMarmat/django-ecommece-bookstore/blob/master/templates/base.html">base.html</a>, <a href ="https://github.com/YashMarmat/django-ecommece-bookstore/blob/master/templates/checkout.html">checkout.html</a>, <a href ="https://github.com/YashMarmat/django-ecommece-bookstore/blob/master/templates/detail.html">detail.html</a>, <a href ="https://github.com/YashMarmat/django-ecommece-bookstore/blob/master/templates/list.html">list.html</a>, <a href ="https://github.com/YashMarmat/django-ecommece-bookstore/blob/master/templates/search_results.html">search_results.html</a>
 
 Note: detail knowledge of templates is not given here as i said earlier im assuming that you have the basic knowlege of MVT in django.
 
@@ -354,7 +350,6 @@ provided by django. But we do require a template file for it. Now login template
 * now inside this registration folder create template file and name it --> login.html
 
 
-Now update the login.html file from <a href="https://github.com/YashMarmat/django-ecommece-bookstore/blob/master/templates/registration/login.html">here</a> 
 
 ok, a little more work on logins, by default django doesnt know where to send the user after they log in and after they log out. So we need to use the url reference name (created in urls.py file of books app). So, i want that after the user logs in and logs out that user should be sent to the home page or the very first page of our website and the url working working on that page was 'list'. Remember those empty quotation marks?  see below:
 
@@ -507,10 +502,8 @@ Now, save everything and test your bookstore website :)
 
 All Done! :)
 
-if you ran into some issues at some point please let me know. Go to issues section of this repository put your problems there. I'll answer them as soon as possible or email me for any feedback --> yashmarmat08@gmail.com
 
-### Paypal_payment_process
-https://scribehow.com/shared/How_to_complete_a_purchase_on_a_website__ereaJRxxQeSAuI-LS1zLbA
+
 
 <p><a href="#top">Back to Top</a></p>
 
